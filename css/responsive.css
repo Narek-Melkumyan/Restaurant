@@ -1,0 +1,75 @@
+
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1000px) {
+    .card-descrpt{
+        width: 58%;
+        h3{
+            font-size: 23px;
+        }
+        p{
+            margin: 15px 0 7px;
+            font-size: 17px;
+        }
+        span{
+            font-size: 20px;
+            color: #7073ec;
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+
+    .card-descrpt {
+        width:100%;
+
+    }
+    .product-image{
+        width: 100%;
+    }
+    .card{
+        width: 48%;
+    }
+    .memebership {
+        .card {
+            width: 48%
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card{
+        width: 95%;
+    }
+    .memebership {
+        .card {
+            width: 95%
+        }
+    }
+    .card-2{
+        width: 100%;
+    }
+    .card-descrpt {
+        width:58%;
+
+    }
+    .product-image{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 400px) {
+.container-lg,.container-sm{
+    padding: 0 15px;
+}
+    .card-descrpt {
+        width:100%;
+
+    }
+    .product-image{
+        width: 100%;
+    }
+}

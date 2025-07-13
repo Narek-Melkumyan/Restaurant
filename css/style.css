@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-lg{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-md{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container-sm{
+    max-width: 800px;
+    margin: 0 auto;
+}
+body{
+    background-color: #dfdfdf;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 23px 0;
+
+}
+.text-center{
+    text-align: center;
+}
+.menu-title{
+    margin: 20px 0;
+    font-size: 50px;
+    color: #7073ec;
+}
+.menu-descrp{
+    padding: 20px 0;
+    font-size: 20px;
+}
+.product-image{
+    width: 40%;
+}
+.card-2{
+    margin-top: 20px;
+    width: 48%;
+}
+.product-img{
+    width: 100%;
+    object-fit: cover;
+}
+.card-descrpt{
+    width: 48%;
+    h3{
+        font-size: 25px;
+    }
+    p{
+        margin: 30px 0 15px;
+        font-size: 20px;
+    }
+    span{
+        font-size: 20px;
+        color: #7073ec;
+    }
+}
+.card-button{
+    margin-top: 20px;
+    display: block;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 20px;
+}
+.card{
+    margin-top: 20px;
+    width: 30%;
+    height: auto;
+}
+.card-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.card-img-dscrp{
+    width: 100%;
+    padding: 20px 0;
+    background-color: white;
+}
+.card-title{
+    padding: 10px 0;
+    font-size: 30px;
+}
+.descerption{
+    padding: 10px 10px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #f1900e;
+}
+.memebership{
+    margin-top: 101px;
+
+    p{
+        font-size: 20px;
+    }
+    .card{
+        width: 32%;
+        background-color: white;
+    }
+    li{
+        padding: 10px 0;
+        list-style: none;
+        font-size: 20px;
+    }
+}
+.card-text{
+    padding: 10px 0;
+    font-size: 30px;
+}
+.title-text{
+    margin: 31px auto;
+    font-size: 50px;
+}
+.rate-button{
+    margin: 20px 0;
+    width: 80%;
+    height: 50px;
+    color: white;
+    background-color: #f1900e;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
